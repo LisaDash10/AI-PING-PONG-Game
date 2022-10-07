@@ -1,0 +1,50 @@
+body
+{
+  background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    text-align: left;
+    height: 100px;
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+}
+
+.play_btn {
+    padding: 5px;
+    width: 35%;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#status {
+    padding: 5px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.restart_btn {
+    padding: 5px;
+    width: 35%;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.footer_div {
+    line-height: 2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: limegreen;
+}
+
+canvas {
+    border: 4px solid white;
+    box-shadow: 7px 7px 7px grey;
+    border-radius: 7px;
+    margin: 10px;
+}
